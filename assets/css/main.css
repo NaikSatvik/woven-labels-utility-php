@@ -60,9 +60,17 @@ body {
 .main-body {
     padding: 20px;
     background-color: #f1f1f1;
-    border: solid 2px #d0ff00;
+    border: solid 2px #6F8FAF;
     margin: 5px;
 }
+
+.results {
+    padding: 20px;
+    background-color: #f1f1f1;
+    border: solid 2px #7CFC00;
+    margin: 5px;
+}
+
 table {
     border-collapse: collapse;
     width: 50%;

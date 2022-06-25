@@ -38,7 +38,7 @@
         </form>
     </div>
 
-    <div class="main-body">
+    <div class="results">
         <?php
             if (isset($_POST['submit'])) {
                 $labelLength = $_POST["LabelLength"];
