@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8" />
-    <title>AREX WL Utility</title>
+    <title>Pre-Design Picks Calc | AREX WL Utility</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta content="Premium Multipurpose Admin & Dashboard Template" name="description" />
     <meta content="Themesdesign" name="author" />
@@ -145,8 +145,63 @@
 
                     <!-- start page title -->
                     <div class="row">
-
+                        <div class="col-12">
+                            <div class="page-title-box d-flex align-items-center justify-content-between">
+                                <h4 class="mb-0 font-size-18">Pre-Design Picks Calculator</h4>
+                            </div>
+                        </div>
                     </div>
+
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h4 class="header-title">Input Elements</h4>
+                                    <p class="card-title-desc">Description</p>
+
+                                    <form class="form-inline" action="pre-design-picks-calc.php" method="post">            
+                                        <label class="sr-only">Pick Density</label>
+                                        <input type="text" name="pickDensity" class="form-control mt-3 mt-sm-0 mr-sm-3" placeholder="Pick Density">
+
+                                        <button name="submit" type="submit" class="btn btn-primary mt-3 mt-sm-0">Proceed</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <?php
+                        $crtable = '';
+                        if ($_POST){
+                    ?>
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="card">
+                                <div class="card-body">
+                                    <h4 class="header-title">Datatable</h4>
+                                    <p class="card-title-desc">Description</p>
+                                    <div class="table-responsive">
+                                        <table class="table table-editable">
+                                            <thead>
+                                                <tr>
+                                                    <th>Color</th>
+                                                    <th>MM</th>
+                                                    <th>CM</th>
+                                                    <th>INCH</th>
+                                                    <th>FOOT</th>
+                                                    <th>METER</th>
+                                                    <th>Individual Needle Picks</th>
+                                                </tr>
+                                            </thead>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <?php
+                        }
+                    ?>
                     <!-- end page title -->
 
                 </div> <!-- container-fluid -->
@@ -190,7 +245,6 @@
     <!-- Jq vector map -->
     <script src="assets/libs/jqvmap/jquery.vmap.min.js"></script>
     <script src="assets/libs/jqvmap/maps/jquery.vmap.usa.js"></script>
-
     <script src="assets/js/pages/dashboard.init.js"></script>
 
     <script src="assets/js/app.js"></script>

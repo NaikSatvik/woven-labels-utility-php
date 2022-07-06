@@ -119,14 +119,14 @@
                             <a href="production-calc.php" class="waves-effect">
                                 <i class="mdi mdi-view-dashboard"></i><span
                                     class="badge badge-pill badge-success float-right"></span>
-                                <span>Production Calculator</span>
+                                <span>Production Calc</span>
                             </a>
                         </li>
 
                         <li>
-                            <a href="wl-utility.php" class=" waves-effect">
+                            <a href="pre-design-picks-calc.php" class=" waves-effect">
                                 <i class="mdi mdi-calendar-month"></i>
-                                <span>WL Utility</span>
+                                <span>Pre-Design Picks Calc</span>
                             </a>
                         </li>
                 </div>
@@ -145,6 +145,12 @@
 
                     <!-- start page title -->
                     <div class="row">
+                        <div class="col-12">
+                            <div class="page-title-box d-flex align-items-center justify-content-between">
+                                <h4 class="mb-0 font-size-18">Production Calculator</h4>
+                            </div>
+                        </div>
+                    
                         <div class="col-lg-6">
                             <div class="card">
                                 <div class="card-body">
